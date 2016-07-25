@@ -1,5 +1,5 @@
 export default function(root) {
-    root.resource('rtest', function() {
+    root.route('rtest', function() {
         this.route('list');
         this.route('add');
     });
