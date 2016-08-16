@@ -3,7 +3,9 @@
 
 module.exports = function(/* environment, appConfig */) {
   return {
-    addonOption: ['some_option1', 'some_option2'],
+    addonOption: {
+    	subOption: ['1', '2', '3'],
+    },
     APP: {
     	appOptionRewrite: 'addon'
     }
